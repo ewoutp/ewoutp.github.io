@@ -1,5 +1,5 @@
 // Overlapping emblems
-var blocks = new Array("subliminl", "jnode","dot42", "deepsea", "pdfm", "trains");
+var blocks = new Array("subliminl", "jnode","dot42", "deepsea", "pdfm", "trains", "more");
 function positionEmblems() {
   $(blocks).each(function(index, block) {
     var emRadius  = ($("#" + block + " .emblem").height() / 2);
