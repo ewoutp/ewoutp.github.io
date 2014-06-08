@@ -224,6 +224,9 @@ section#pdfm {
 section#trains {
   background: #e8e8e9;
 }
+section#more {
+  background: #f8f8f9;
+}
 .info a {
   color: #ffffff;
 }
