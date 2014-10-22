@@ -338,6 +338,12 @@ ul#links .email {
   -moz-animation: bounceInDown 0.5s 1.8s 1 both ease-in-out;
   animation: bounceInDown 0.5s 1.8s 1 both ease-in-out;
 }
+ul#links .github {
+  margin: 0 0 0 20px;
+  -webkit-animation: bounceInDown 0.5s 2s 1 both ease-in-out;
+  -moz-animation: bounceInDown 0.5s 2s 1 both ease-in-out;
+  animation: bounceInDown 0.5s 2s 1 both ease-in-out;
+}
 /* Animations, some by http://daneden.me/animate/ */
 
 @-moz-keyframes fadeIn {
