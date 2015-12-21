@@ -208,23 +208,26 @@ section {
 section#subliminl {
   background: #f8f8f9;
 }
-section#jnode {
+section#subliminl {
   background: #e8e8e9;
+}
+section#jnode {
+  background: #f8f8f9;
 }
 section#dot42 {
-  background: #f8f8f9;
+  background: #e8e8e9;
 }
 section#deepsea {
-  background: #e8e8e9;
+  background: #f8f8f9;
 }
 section#pdfm {
-  background: #f8f8f9;
-}
-section#trains {
   background: #e8e8e9;
 }
-section#more {
+section#trains {
   background: #f8f8f9;
+}
+section#more {
+  background: #e8e8e9;
 }
 .info a {
   color: #ffffff;

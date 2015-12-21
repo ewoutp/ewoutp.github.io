@@ -106,7 +106,7 @@ header, footer {
     color: @graytext;
     opacity: .7;
   }
-  
+
 header {
   position: fixed;
   height: 700px;
@@ -122,8 +122,8 @@ header {
   }
   header .footer {
     display: none;
-  } 
-  
+  }
+
 footer {
   position: relative;
   z-index: 3;
@@ -186,7 +186,7 @@ footer {
   }
 
 article, footer {
-    top: @hdrtop;	
+    top: @hdrtop;
     position: relative;
 }
 
@@ -198,23 +198,26 @@ section {
   section#subliminl {
     background: @row0;
   }
-  section#jnode {
+  section#subliminl {
     background: @row1;
+  }
+  section#jnode {
+    background: @row0;
   }
   section#dot42 {
-    background: @row0;
+    background: @row1;
   }
   section#deepsea {
-    background: @row1;
+    background: @row0;
   }
   section#pdfm {
-    background: @row0;
-  }
-  section#trains {
     background: @row1;
   }
-  section#more {
+  section#trains {
     background: @row0;
+  }
+  section#more {
+    background: @row1;
   }
 
 .info a {
@@ -226,7 +229,7 @@ section {
   .info a:active {
     color: #666;
   }
-  
+
 .emblem {
   width: 90px;
   height: 90px;
@@ -267,7 +270,7 @@ time {
   text-align: center;
   padding: 20px 0 0 0;
 }
-  
+
 ul#links {
   list-style-type: none;
   width: 230px;
@@ -371,7 +374,7 @@ ul#links {
   section .inner {
     width: 700px;
   }
-  header { 
+  header {
     width: @hdrw;
     top: 0;
     height: 100%;
@@ -384,8 +387,8 @@ ul#links {
   footer {
     display: none;
   }
-  #bar { 
-    left: @hdrw; 
+  #bar {
+    left: @hdrw;
     right: 0;
     width: initial;
   }
