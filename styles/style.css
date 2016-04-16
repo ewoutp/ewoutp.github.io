@@ -65,7 +65,7 @@ a {
   border-bottom: 1px solid #aaa;
   text-decoration: none;
   padding-bottom: 1px;
-  color: #445566;
+  color: #0e0e11;
   -webkit-transition: color 0.2s ease-in;
   -moz-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
@@ -81,7 +81,7 @@ a:active {
   width: 100%;
   position: fixed;
   z-index: 1;
-  background-color: #445566;
+  background-color: #0e0e11;
   opacity: .9;
 }
 #bar .emblem {
@@ -108,7 +108,7 @@ a:active {
 header,
 footer {
   padding: 0;
-  background-color: #445566;
+  background-color: #0e0e11;
   font-size: 1.4em;
   width: 100%;
   text-shadow: 1px 1px 1px #000;
@@ -205,29 +205,32 @@ section {
   width: 100%;
   padding: 6em 0;
 }
-section#giantswarm {
+section#blueoceansgroup {
   background: #f8f8f9;
+}
+section#giantswarm {
+  background: #e8e8e9;
 }
 section#subliminl {
-  background: #e8e8e9;
+  background: #f8f8f9;
 }
 section#jnode {
-  background: #f8f8f9;
+  background: #e8e8e9;
 }
 section#dot42 {
-  background: #e8e8e9;
+  background: #f8f8f9;
 }
 section#deepsea {
-  background: #f8f8f9;
+  background: #e8e8e9;
 }
 section#pdfm {
-  background: #e8e8e9;
-}
-section#trains {
   background: #f8f8f9;
 }
-section#more {
+section#trains {
   background: #e8e8e9;
+}
+section#more {
+  background: #f8f8f9;
 }
 .info a {
   color: #ffffff;
@@ -294,7 +297,7 @@ ul#links a img {
   height: 30px;
   display: block;
   float: left;
-  background: #445566;
+  background: #0e0e11;
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   -webkit-transform: translateY(0);
 }
