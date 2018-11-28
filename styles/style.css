@@ -105,6 +105,17 @@ a:active {
   -moz-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
 }
+#bar .companyinfo,
+#bar .companyname {
+  color: white;
+  padding: 1.2em;
+}
+#bar .companyinfo {
+  float: right;
+}
+#bar .companyname {
+  float: left;
+}
 header,
 footer {
   padding: 0;
@@ -138,6 +149,10 @@ header .footer {
 header h2 {
   font-size: 1.6em;
   font-style: italic;
+}
+header .info {
+  text-align: justify;
+  padding: 1em;
 }
 footer {
   position: relative;
