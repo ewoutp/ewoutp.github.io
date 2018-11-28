@@ -135,6 +135,10 @@ header section {
 header .footer {
   display: none;
 }
+header h2 {
+  font-size: 1.6em;
+  font-style: italic;
+}
 footer {
   position: relative;
   z-index: 3;
