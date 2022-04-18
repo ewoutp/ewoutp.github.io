@@ -1,10 +1,10 @@
 // Overlapping emblems
-var blocks = new Array("aljabr", "arangodb", "blueoceansgroup", "giantswarm", "subliminl", "jnode","dot42", "deepsea", "pdfm", "trains", "more");
+var blocks = new Array("oasis", "aljabr", "arangodb", "blueoceansgroup", "giantswarm", "subliminl", "jnode","dot42", "deepsea", "pdfm", "trains", "more");
 function positionEmblems() {
   $(blocks).each(function(index, block) {
     var emRadius  = ($("#" + block + " .emblem").height() / 2);
     var emPos     = $("#" + block + " .emblem").offset();
-    var emTop     = emPos.top - 11;
+    var emTop     = emPos.top - 12;
     var divPos    = $("#" + block).offset();
     var divTop    = divPos.top;
     var scrollTop = $(document).scrollTop();
@@ -12,7 +12,7 @@ function positionEmblems() {
       $("#" + blocks[index - 1] + " .emblem").hide();
       $("#" + block + " .emblem").addClass("fixedpos");
       if (block == blocks[0]) $("#bar").addClass("lifted");
-    } else if(divTop - emRadius - 11 > scrollTop) {
+    } else if(divTop - emRadius - 12 > scrollTop) {
       $("#" + blocks[index - 1] + " .emblem").show();
       $("#" + block + " .emblem").removeClass("fixedpos");
       if (block == blocks[0]) $("#bar").removeClass("lifted");
